@@ -12,7 +12,7 @@ function Home() {
 
     const loadPlants=async()=>{
         toast.loading("Loading plants")
-        const response= await axios.get(`http://localhost:8000/plants`)
+        const response= await axios.get(`https://nursery-ppxl.onrender.com${"/plants"}`)
         toast.dismiss()
         toast.success("Plants Fetched Successfully")
        setPlants(response.data.Data)
