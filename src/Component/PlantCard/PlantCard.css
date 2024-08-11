@@ -1,6 +1,46 @@
 .Container{
-    border: 2px solid;
-    width: 800px;
+    border: 2px solid black;
+    width: 400px;
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    
+    
+
+   
+   
+
+
+    
+   
+
+   
 }
+.sub-container{
+
+
+}
+.IMG{
+   
+    width: 200px;
+   
+    
+   
+}
+.action-button{
+    background-color: #ffb84d;
+    color: white;
+    padding: 5px 30px;
+    margin: 0px 20px;
+    border: 2px solid  #ffb84d ;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-heading{
+    text-align: center;
+}
+.card-element{
+    font-weight: bold;
+}
+
