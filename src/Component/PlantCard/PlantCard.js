@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
 function PlantCard({_id,name,category,image,price,description,loadPlants}){
 
     const deletePlant=async(plantid)=>{
-        const response=await axios.delete(`http://localhost:8000/plant/${plantid}`)
+        const response=await axios.delete(`${process.env.REACT_APP_URL}/plant/${plantid}`)
         toast.success(response.data.message)
         loadPlants()
 
